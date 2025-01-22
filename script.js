@@ -2,10 +2,10 @@ function openSidebar() {
     let asideButtonImg = document.getElementById('menuBImg');
     let aside = document.getElementById("aside");
     aside.style.display = aside.style.display === "flex" ? "none" : "flex";
-    if(asideButtonImg.getAttribute('src') === "/images/close.png") {
-        asideButtonImg.setAttribute('src', '/images/menu.png');
+    if(asideButtonImg.getAttribute('src') === "close.png") {
+        asideButtonImg.setAttribute('src', 'menu.png');
     } else {
-        asideButtonImg.setAttribute('src', '/images/close.png');
+        asideButtonImg.setAttribute('src', 'close.png');
     }
 }
 
